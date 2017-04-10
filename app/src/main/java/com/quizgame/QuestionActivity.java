@@ -49,7 +49,7 @@ public class QuestionActivity extends Activity {
             @Override
             public void onClick(View v) {
 // passing the button text to other method
-// to check whether the anser is correct or not
+// to check whether the answer is correct or not
 // same for all three buttons
                 getAnswer(button1.getText().toString());
             }
@@ -84,7 +84,7 @@ public class QuestionActivity extends Activity {
             startActivity(intent);
             finish();
         }
-        if (qid < 20) {
+        if (qid < 25) {
 // if questions are not over then do this
             currentQ = quesList.get(qid);
             setQuestionView();

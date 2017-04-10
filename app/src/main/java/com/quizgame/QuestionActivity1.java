@@ -1,13 +1,13 @@
 package com.quizgame;
 
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
 import java.util.List;
 
 public class QuestionActivity1 extends Activity {
@@ -78,7 +78,7 @@ public class QuestionActivity1 extends Activity {
             startActivity(intent);
             finish();
         }
-        if (qid < 20) {
+        if (qid < 25) {
 // if questions are not over then do this
             currentQ = quesList.get(qid);
             setQuestionView();
