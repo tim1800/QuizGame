@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
         android:layout_marginTop="50dp"
         android:gravity="center"
         android:inputType="textMultiLine"
@@ -25,6 +26,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_marginTop="15dp"
@@ -39,6 +41,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_marginTop="5dp"
@@ -53,6 +56,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
         android:layout_marginTop="5dp"
@@ -61,7 +65,7 @@
         android:text="Hard"
         android:textColor="#000000"
         android:textSize="25.0sp" />
-
+    <!--
     <Button
         android:id="@+id/btntime"
         android:layout_width="fill_parent"
@@ -75,6 +79,7 @@
         android:text="Time based"
         android:textColor="#000000"
         android:textSize="25.0sp" />
+        -->
     <Button
         android:id="@+id/btnuntime"
         android:layout_width="fill_parent"
@@ -100,10 +105,10 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner_ad_unit_id"
-            tools:layout_editor_absoluteX="0dp"
             ads:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="0dp"></com.google.android.gms.ads.AdView>
+            tools:layout_editor_absoluteX="0dp"></com.google.android.gms.ads.AdView>
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>

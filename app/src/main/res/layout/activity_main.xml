@@ -84,11 +84,13 @@
                 android:layout_weight="0.20"
                 android:orientation="vertical"
                 android:weightSum="1" >
+
                 <Button
                     android:id="@+id/button1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginRight="80dp"
                     android:layout_marginTop="5dp"
@@ -97,11 +99,13 @@
                     android:text="30"
                     android:textColor="#000000"
                     android:textSize="25.0sp" />
+
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginRight="80dp"
                     android:layout_marginTop="5dp"
@@ -110,11 +114,13 @@
                     android:text="29"
                     android:textColor="#000000"
                     android:textSize="25.0sp" />
+
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
                     android:layout_marginLeft="80dp"
                     android:layout_marginRight="80dp"
                     android:layout_marginTop="5dp"
@@ -123,7 +129,22 @@
                     android:text="32"
                     android:textColor="#000000"
                     android:textSize="25.0sp" />
+
+                <TextView
+                    android:id="@+id/error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="25.0sp"
+                    android:textStyle="bold"
+                    android:text="Error: 0" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>

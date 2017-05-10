@@ -4,17 +4,17 @@
     android:id="@+id/relatively"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff80"
+    android:background="#1260E3"
     android:orientation="vertical"
-    android:weightSum="1" >
+    android:weightSum="1">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Simple Geography Quiz"
         android:layout_weight="1"
-        android:textColor="#000"
-        android:textSize="34sp"
-        android:textStyle="bold"
         android:gravity="center_horizontal|center_vertical"
-        />
+        android:text="Giz: \n \n Geography Quiz"
+        android:textColor="#FEC211"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 </LinearLayout>
